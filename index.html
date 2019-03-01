@@ -1,0 +1,15 @@
+<html>
+<head>
+<script type="text/javascript">
+    function changeClass(){
+        document.getElementById("MyElement").className = "MyClass";
+    }
+    window.onload = function(){
+        document.getElementById("MyElement").addEventListener( 'click', changeClass);
+    }
+</script>
+</head>
+<body>
+    <button id="MyElement">My Button</button>
+</body>
+</html>
